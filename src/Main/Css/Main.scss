@@ -1,0 +1,36 @@
+.Main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .AppBody_Projects {
+        height: 390px;
+        width: 390px;
+        margin: 5px 0;
+        background-color: rgba(13, 178, 255, 0.308);
+        padding: 0 10px;
+        border-radius: 15px;
+        position: relative;
+
+        h1 {
+            text-align: center;
+        }
+
+        a {
+            position: absolute;
+            bottom: 15px;
+            span {
+                background-color: rgb(50, 156, 255);
+                border-radius: 7.5px;
+                padding: 1px;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:780px) {
+    .Main {
+        justify-content: center;
+    }
+}
